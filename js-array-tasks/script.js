@@ -75,8 +75,35 @@ if (Array.isArray(isStudent)) {
   console.log("isStudent is not an array.");
 } */
 
-// =>  5. Combining Arrays
+// ==> 4. Checking if it's an Array
+// Array variables
+let fruits = ["apple", "banana", "mango"];
+let numbers = [10, 20, 30];
+let books = ["JavaScript", "Python", "PHP"];
 
+// Non-array variable
+let age = 20;
+let name = "Kausar";
+let isStudent = true;
+
+let testCase = [];
+testCase.push(fruits);
+testCase.push(numbers);
+testCase.push(books);
+testCase.push(age);
+testCase.push(name);
+testCase.push(isStudent);
+
+for (let singleTestCase of testCase) {
+  if (Array.isArray(singleTestCase)) {
+    console.log(`✅ ${singleTestCase} is an Array.`);
+  } else {
+    console.log(`❌ ${singleTestCase} is Not an Array.`);
+  }
+}
+
+// =>  5. Combining Arrays
+/* 
 let books = ["Python", "JavaScript", "C", "PHP"];
 
 let tourist = ["Qatar", "Saudi Arabic", "Japan", "China"];
@@ -86,3 +113,4 @@ let kausar = books.concat(tourist);
 console.log(books);
 console.log(tourist);
 console.log(kausar);
+ */
