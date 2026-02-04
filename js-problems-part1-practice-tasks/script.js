@@ -25,7 +25,7 @@ function findArray(numbers) {
 
 const numbers = [5, 6, 11, 12, 98, 5];
 const result = findArray(numbers);
-console.log(result);
+// console.log(result);
 // result;
 
 // best
@@ -40,8 +40,8 @@ function countOccurrences(numbers, findNumber) {
 }
 
 const num = [5, 6, 11, 12, 98, 5];
-console.log(countOccurrences(numbers, 5)); // 2
-console.log(countOccurrences(numbers, 25)); // 0
+// console.log(countOccurrences(numbers, 5)); // 2
+// console.log(countOccurrences(numbers, 25)); // 0
 
 // => 5
 
@@ -53,6 +53,6 @@ function randomEl() {
   }
 }
 
-// const kausar = randomEl();
+const kausar = randomEl();
 
-// console.log(kausar);
+console.log(kausar);
